@@ -54,7 +54,18 @@ nav li{
 }
 
 .content{
+    max-width: 1024px;
+    width: 75%;
     padding: 20px 12px;
+}
+.contenedor_nav{
+    max-width: 1024px;
+}
+
+.parrafo_info{
+    line-height: 200%;
+    font-size: large;
+    
 }
 .fila{
     display: flex;
