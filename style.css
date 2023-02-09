@@ -1,11 +1,14 @@
 * {
-    font-family: "Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif;;
-    font-size: large;
+    font-family: "Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif;
 }
 
 nav {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   }
+
+.menos{
+    display:none;
+}
 
 @media all and (min-width: 993px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
@@ -27,6 +30,13 @@ nav {
     color: rgb(255, 56, 89);
 }
 
+.menu1:hover > .menos{
+    display: block;
+}
+.menu1:hover > .mas{
+    display: none;
+}
+
 .navigator{
     display: flex;
     flex-direction: row;
@@ -38,13 +48,21 @@ nav {
     background-color: white;
     margin-left: 12px;
 }
-.row{
+
+nav li{
+    margin-left: 15px;
+}
+
+.content{
+    padding: 20px 12px;
+}
+.fila{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
 }
+
 .color{
     display: flex;
     flex-direction: column;
@@ -54,6 +72,9 @@ nav {
     padding: 6px;   
 }
 
+.color:hover{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
 .color1{
     height: 120px;
     width: 120px;
@@ -62,8 +83,6 @@ nav {
 .color a{
     text-decoration: none;
 }
-
-
 
 .container hr{
     color: gray;
