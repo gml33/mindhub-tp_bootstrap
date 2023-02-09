@@ -50,7 +50,7 @@ nav {
 }
 
 nav li{
-    margin-left: 15px;
+    min-width: 30px;
 }
 
 .content{
@@ -61,6 +61,7 @@ nav li{
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .color{
