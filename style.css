@@ -1,4 +1,5 @@
 * {
+    font-family: "Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif;;
     font-size: large;
 }
 
@@ -18,25 +19,20 @@
 .dropdown-item:hover{
     color:rgb(255, 56, 89);
 }
+.menu1:hover{
+    color: rgb(255, 56, 89);
+}
 
-.navigation{
+.navigator{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 .get_info{
     border: 1px solid grey;
     background-color: white;
     margin-left: 12px;
-}
-
-.fila{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 .color{
     height: 100px;
@@ -48,6 +44,14 @@
 .color p{
     position: relative;
     transform: translateY(375%);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
 }
 
 .container hr{
