@@ -2,6 +2,10 @@
     font-family: "Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif;
 }
 
+body{
+    scroll-behavior: smooth;
+}
+
 nav {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   }
@@ -113,3 +117,14 @@ nav li{
     margin:5px;
 }
 
+.volver{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.ir_arriba{
+    width: 3rem;
+}
